@@ -1,0 +1,38 @@
+/* Developed by Akram Khattab */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Developed by Akram Khattab */
+body {
+  background-image: url('high-angle-uncompleted-checking-boxes_23-2148265488.jpg'); /* Replace 'background_image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* White container background with opacity */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  padding: 30px;
+  margin-top: 50px;
+}
+
+
+h1 {
+  color: #343a40; /* Dark gray heading */
+}
+
+.form-group label {
+  color: #6c757d; /* Gray label */
+}
+
+.btn {
+  margin-bottom: 10px; /* Spacing between buttons */
+}
+
+#ulTasks li.done {
+  color: #6c757d; /* Gray color for completed tasks */
+  text-decoration: line-through; /* Strikethrough for completed tasks */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo List</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Developed by Akram Khattab -->
+  <div class="container">
+    <h1 class="text-center">Todo List</h1>
+
+    <div class="row">
+      <!-- Input box -->
+      <div class="col-md-7">
+        <div class="form-group">
+          <label for="inpNewTask">New Task</label>
+          <input type="text" class="form-control" id="inpNewTask" placeholder="Enter the name of the task">
+          <small id="newTaskHelp" class="form-text text-muted">A short one line description of your task</small>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="col-md-5">
+        <button class="btn btn-success btn-block mb-2" disabled id="btnAdd">
+          <i class="fas fa-plus-square"></i> Add
+        </button>
+        <button class="btn btn-danger btn-block mb-2" disabled id="btnReset">
+          <i class="fas fa-backspace"></i> Reset
+        </button>
+        <button class="btn btn-info btn-block mb-2" disabled id="btnSort">
+          <i class="fas fa-sort-amount-down"></i> Sort
+        </button>
+        <button class="btn btn-warning btn-block mb-2" disabled id="btnCleanup">
+          <i class="fas fa-trash-alt"></i> Cleanup
+        </button>
+      </div>
+    </div>
+
+    <!-- Task List -->
+    <ul class="row list-group m-2" id="ulTasks">
+    </ul>
+  </div>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
